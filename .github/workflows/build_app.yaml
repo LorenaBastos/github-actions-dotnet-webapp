@@ -1,8 +1,8 @@
 name: Build and Deploy .Net Application
 on:
   push:
-    branches: main
-  jobs:
+    branches: [ main ]
+jobs:
   build:
     runs-on: ubuntu-latest
     strategy:
