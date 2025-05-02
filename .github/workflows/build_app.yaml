@@ -9,6 +9,6 @@ jobs:
       - uses: actions/checkout@v4
       - name: Setup dotnet
         uses: actions/setup-dotnet@v4
-        
+
       - name: Execute dotnet
-        run: dotnet build <my project>
+        run: dotnet build github4women
